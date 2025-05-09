@@ -1,0 +1,23 @@
+h1 {
+  color: green;
+  font-style: italic;
+}
+
+.notification {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.notification.success {
+  color: green;
+  background: #d4f8d4;
+  border-color: green;
+}
+
+.notification.error {
+  color: red;
+  background: #ffd6d6;
+  border-color: red;
+}
